@@ -8,14 +8,14 @@ function header() {
                 jo('div', {
                     class: 'flex flex-col items-start justify-center gap-[83px] max-[1000px]:items-center ', children: [
                         // h1 title
-                        jo('h1', { class: 'w-[75%] text-5xl font-bold font-sans text-white leading-[70px] max-[600px]:text-4xl max-[600px]:leading-[50px] max-[600px]:w-full', t: '"Transform your space with elegance."' }, { fontFamily: 'Gill Sans' }),
+                        jo('h1', { class: 'w-[75%] max-[560px]:w-full text-5xl font-bold font-sans text-white leading-[70px] max-[600px]:text-4xl max-[600px]:leading-[50px] max-[600px]:w-full', t: '"Transform your space with elegance."' }, { fontFamily: 'Gill Sans' }),
 
                         // buttons
                         jo('div', {
-                            class: 'flex gap-7',
+                            class: 'flex gap-[5%]',
                             children: [
-                                jo('button', { class: 'w-[160px] h-10 rounded-full bg-[#FFD748] text-lg text-black cursor-pointer hover:bg-[#FECA11] transition ', t: 'Shop Now' }),
-                                jo('button', { class: 'w-[160px] h-10 rounded-full bg-transparent border border-white text-lg text-black cursor-pointer hover:bg-[#FFD748] transition', t: 'Explore' })
+                                jo('button', { class: 'w-[160px] max-[560px]:w-[140px] h-10 rounded-full bg-[#FFD748] text-lg text-black cursor-pointer hover:bg-[#FECA11] transition ', t: 'Shop Now' }),
+                                jo('button', { class: 'w-[160px] max-[560px]:w-[140px] h-10 rounded-full bg-transparent border border-white text-lg text-black cursor-pointer hover:bg-[#FFD748] transition', t: 'Explore' })
                             ]
                         })]
                 }),

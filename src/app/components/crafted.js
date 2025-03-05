@@ -20,7 +20,7 @@ function crafted() {
     ]
   return (
     jo("div", {class: "w-full flex flex-wrap  items-center justify-between px-[5%]  max-[1110px]:justify-center max-[1110px]:gap-y-[130px] max-[1110px]:gap-5 ", children:[
-        jo('div', {class:'w-[214px]', children:[
+        jo('div', {class:'w-[214px] max-[560px]:w-full max-[560px]:text-center', children:[
             jo('h1', {class:'w-full text-[#2F2F2F] font-bold text-[34px]', t:'Crafted with excellent material'}),
             jo('p', {class:'w-full text-[#6A6A6A] text-sm', t:'Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.'}),
             jo('button', {class:'w-[160px] h-10 bg-[#35736E] text-white rounded-full mt-2 cursor-pointer hover:bg-[#3B5D50] transition ', t:'Explore'}),

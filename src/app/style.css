@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-
+body{
+    scroll-behavior: smooth;
+}
 .card:hover .s{
     scale: 1;
 }

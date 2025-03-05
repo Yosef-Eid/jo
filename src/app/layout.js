@@ -6,6 +6,6 @@ export default function Layout({ children }) {
   return jo("div", {style:{hight:'100vh'}, children:[
     nav(),
     children,
-    //footer(),
+    footer(),
   ]});
 }

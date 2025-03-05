@@ -20,8 +20,8 @@ function nav() {
         // user and cart
         jo('div', { 
           class: 'flex', children: [
-            jo("a", {href: "/login", children:[jo('img', {src:'/img/uswer.svg'})] }),
-            jo("a", {href: "/register", children:[jo('img', {src:'/img/cart.svg'})] }),
+            jo("a", {href: "/user", children:[jo('img', {src:'/img/uswer.svg'})] }),
+            jo("a", {href: "/cart", children:[jo('img', {src:'/img/cart.svg'})] }),
           ]}
         )
        ]}),

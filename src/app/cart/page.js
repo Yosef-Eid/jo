@@ -8,7 +8,7 @@ export default function Home() {
       jo("div", { class:'pt-40 h-[88vh] flex items-center justify-center font-bold text-4xl',
          children: [
         
-          jo('h1', {t:'About Page'})
+          jo('h1', {t:'Cart Page'})
         
       ] },),
     ]
