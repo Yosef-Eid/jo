@@ -31,7 +31,7 @@ function crafted() {
                 jo('img', {src:item.img, class:'mt-[-130px]'}),
                 jo('h1', {class:'w-full text-[#2F2F2F] font-bold text-[18px]', t:item.name}),
                 jo('p', {class:'w-full text-[#2F2F2F] text-sm font-bold ', t:item.price}),
-                jo('button', {class:'w-[35px] h-[35px] scale-0 bg-[#2F2F2F]  rounded-full  absolute bottom-[-15px] transition-[all_.3s] '}),
+                jo('button', {class:'s w-[35px] h-[35px] scale-0 bg-[#2F2F2F]  rounded-full  absolute bottom-[-15px] transition-[all_.3s] '}),
             ]}))
         ]})
     // ] })
