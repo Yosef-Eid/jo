@@ -5,11 +5,11 @@ export default function modern() {
         jo('div', { class: 'w-full flex justify-between  max-[1250px]:gap-y-[130px] gap-[5%] p-[5%] max-[1250px]:flex-col-reverse max-[1250px]:items-center max-[1250px]:justify-center  ', children: [
             // catalog
                 jo('div', { class: ' relative flex items-start gap-4 pl-20', children: [
-                        jo('img', { src: '/public/img/Dotted (2).svg', class: 'absolute top-[-80px] left-0' }),
-                        jo('img', { src: '/public/img/Mask group.svg', class: 'min-w-88 z-10  hover:scale-[1.1] transition' }),
+                        jo('img', { src: '/img/Dotted (2).svg', class: 'absolute top-[-80px] left-0' }),
+                        jo('img', { src: '/img/Mask group.svg', class: 'min-w-88 z-10  hover:scale-[1.1] transition' }),
                         jo('div', { class: 'min-w-[200px] flex flex-col gap-4 z-[222] ', children: [
-                                jo('img', { src: '/public/img/lamp.svg', class: ' hover:scale-[1.1] transition' }),
-                                jo('img', { src: '/public/img/chair.svg', class: ' hover:scale-[1.1] transition ml-[-50px]' }),
+                                jo('img', { src: '/img/lamp.svg', class: ' hover:scale-[1.1] transition' }),
+                                jo('img', { src: '/img/chair.svg', class: ' hover:scale-[1.1] transition ml-[-50px]' }),
                             ]
                         }),
                     ]
