@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+.card:hover .s{
+    scale: 1;
+}

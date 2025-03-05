@@ -1,26 +1,17 @@
 import { jo } from "../jo/jo.js";
-import {users} from '../app/data.js';
+import choose from "./components/choose.js";
+import crafted from "./components/crafted.js";
+import header from "./components/header.js";
+import modern from "./components/modern.js";
 
 export default function Home() {
-  return jo("div", {
-    children: [
-      
-      jo("div", {
-        children: [
-          jo("h1", {t: "Home" }),
-          jo("ul", { children: [
-              ...users.map(user => (
-                jo("li", {
-                  children: [
-                    jo("a", { onclick: () => history.pushState({}, '', `${user.id}`) , href: `/${user.id}`, t: `Name: ${user.name}` }),
-                    jo("span", { t: `Email: ${user.email}` }),
-                  ]
-                })
-              ))
-            ]
-          })
-        ]
-      },),
+  return jo("div", { class:'pt-20 flex flex-col gap-20 bg-[#EFF2F1]',
+    children:[
+      header(),
+      crafted(),
+      choose(),
+      modern()
     ]
+        
   },);
 }
